@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player - AynaOtt | Powered By TechPakao</title>
+  <link rel="stylesheet" href="./player.css">
+  <style>
+    #player {
+      position: absolute;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="player"></div>
+
+  <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+  <script>
+    jwplayer("player").setup({
+      file: "https://web-nu-eight-75.vercel.app/channels/sss2hd.m3u8",
+      autoplay: true,
+      controls: true,
+      displaytitle: true,
+      skin: { name: "netflix" }
+    });
+  </script>
+</body>
+</html>
